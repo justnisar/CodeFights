@@ -1,3 +1,4 @@
+class RotateImage{
 int[][] rotateImage(int[][] a) {
     //transpose of a matrix
     for(int i = 0 ; i < a.length ; i++){
@@ -26,4 +27,4 @@ int[][] rotateImage(int[][] a) {
     
     return a;
 }
-
+}

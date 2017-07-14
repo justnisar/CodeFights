@@ -1,3 +1,4 @@
+class GroupingDishes{
 String[][] groupingDishes(String[][] dishes) {
     String key = null, value = null;
     TreeMap<String,List<String>> map = new TreeMap<String,List<String>>();
@@ -40,4 +41,4 @@ String[][] groupingDishes(String[][] dishes) {
         return resultArray;
     }
 
-
+}

@@ -1,4 +1,5 @@
 //
+
 // Definition for binary tree:
 // class Tree<T> {
 //   Tree(T x) {
@@ -8,6 +9,7 @@
 //   Tree<T> left;
 //   Tree<T> right;
 // }
+class TraverseTree{
 int[] traverseTree(Tree<Integer> t) {
     Queue<Tree<Integer>> queue = new LinkedList<Tree<Integer>>();
     List<Integer> result = new ArrayList<Integer>();
@@ -23,4 +25,4 @@ int[] traverseTree(Tree<Integer> t) {
     }
     return result.stream().mapToInt((Integer i) -> i.intValue()).toArray();
 }
-
+}

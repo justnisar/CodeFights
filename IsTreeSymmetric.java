@@ -8,7 +8,7 @@
 //   Tree<T> left;
 //   Tree<T> right;
 // }
-
+IsTreeSymmetric{
 boolean isMirror(Tree<Integer> t1,Tree<Integer> t2){
         if(t1 == null && t2 == null)
                 return true;
@@ -19,4 +19,4 @@ boolean isMirror(Tree<Integer> t1,Tree<Integer> t2){
 boolean isTreeSymmetric(Tree<Integer> t) {
         return isMirror(t,t);
 }
-
+}

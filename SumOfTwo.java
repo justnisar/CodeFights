@@ -1,4 +1,4 @@
-boolean sumOfTwo(int[] a, int[] b, int v) {
+SumOfTwo{boolean sumOfTwo(int[] a, int[] b, int v) {
     HashSet<Integer> set = new HashSet<Integer>();
     for(int i = 0 ; i < a.length ; i++)
         set.add(a[i]);
@@ -8,4 +8,4 @@ boolean sumOfTwo(int[] a, int[] b, int v) {
     }
     return false;
 }
-
+}

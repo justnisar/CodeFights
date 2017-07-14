@@ -1,3 +1,4 @@
+class FirstNonRepeatingCharacter{
 char firstNotRepeatingCharacter(String s) {
     Pair[] array = new Pair[26];
     for(int i = 0 ; i < 26 ; i++){
@@ -21,7 +22,7 @@ char firstNotRepeatingCharacter(String s) {
     }
     return result;
 }
-
+}
 class Pair{
     int firstOccurance;
     int count;

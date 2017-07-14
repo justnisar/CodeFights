@@ -1,3 +1,4 @@
+class ContainsDuplicates{
 boolean containsDuplicates(int[] a) {
     HashSet<Integer> set = new HashSet<Integer>();
     for(int i = 0 ; i < a.length ; i++){
@@ -8,4 +9,4 @@ boolean containsDuplicates(int[] a) {
     }
     return false;
 }
-
+}

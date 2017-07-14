@@ -1,3 +1,4 @@
+class ComposeRanges{
 String[] composeRanges(int[] nums) {
     int length = nums.length;
     List<String> result = new ArrayList<String>();
@@ -28,4 +29,4 @@ String[] composeRanges(int[] nums) {
     
     return result.toArray(new String[0]);
 }
-
+}

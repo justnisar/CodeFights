@@ -8,6 +8,7 @@
 //   Tree<T> left;
 //   Tree<T> right;
 // }
+class HasPathWithGivenSum{
 boolean hasPathWithGivenSum(Tree<Integer> t, int s) {
     if(t == null && s == 0)
         return true;
@@ -24,4 +25,4 @@ boolean hasPathWithGivenSum(Tree<Integer> t, int s) {
         return hasPathWithGivenSum(t.left,s);
     return hasPathWithGivenSum(t.left,s) || hasPathWithGivenSum(t.right,s);
 }
-
+}

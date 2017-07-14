@@ -1,3 +1,4 @@
+class ClimbingStairs{
 int climbingStairs(int n) {
     if(n <= 2)
         return n;
@@ -9,5 +10,6 @@ int climbingStairs(int n) {
         array[i] = array[i-1] + array[i-2];
     return array[n];
     
+}
 }
 

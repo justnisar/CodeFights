@@ -1,3 +1,4 @@
+class FirstDuplicate{
 int firstDuplicate(int[] a) {
     HashSet<Integer> set = new HashSet<Integer>();
     for(int i = 0 ; i < a.length ; i++){
@@ -10,4 +11,4 @@ int firstDuplicate(int[] a) {
     }
     return -1;
 }
-
+}

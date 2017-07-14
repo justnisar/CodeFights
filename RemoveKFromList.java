@@ -7,6 +7,7 @@
 //   ListNode<T> next;
 // }
 //
+class RemoveKFromList{
 ListNode<Integer> removeKFromList(ListNode<Integer> l, int k) {
     ListNode<Integer> current = l;
     ListNode<Integer> result = null;
@@ -30,4 +31,4 @@ ListNode<Integer> removeKFromList(ListNode<Integer> l, int k) {
 
     return result;
 }
-
+}

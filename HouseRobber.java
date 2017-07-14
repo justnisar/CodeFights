@@ -1,3 +1,4 @@
+HouseRobber{
 int houseRobber(int[] nums) {
     int length = nums.length;
     if(length == 0)
@@ -14,4 +15,4 @@ int houseRobber(int[] nums) {
     }
     return array[length - 1];
 }
-
+}
